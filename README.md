@@ -402,6 +402,7 @@ DISSEMINATION: APPROVED FOR PUBLIC RELEASE
 <br>
 
 <!-- ═══════════════════════ GITHUB STATS ═══════════════════════ -->
+<!-- TODO: Uncomment this section when GitHub activity improves
 
 <div align="center">
 
@@ -435,6 +436,7 @@ DISSEMINATION: APPROVED FOR PUBLIC RELEASE
 <img src="assets/divider.svg" width="100%"/>
 
 <br>
+-->
 
 <!-- ═══════════════════════ COMMENDATIONS ═══════════════════════ -->
 
