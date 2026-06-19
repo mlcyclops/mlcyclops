@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-lg">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="radarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00ff41" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#00d4ff" stop-opacity="0.2"/>
+      <stop offset="80%" stop-color="#00ff41" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#bg)"/>
+
+  <!-- Outer border glow -->
+  <rect x="1" y="1" width="898" height="298" fill="none" stroke="url(#borderGrad)" stroke-width="1" rx="3"/>
+
+  <!-- Grid pattern -->
+  <g stroke="#00ff41" stroke-opacity="0.035" stroke-width="0.5">
+    <line x1="0" y1="50" x2="900" y2="50"/>
+    <line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="250" x2="900" y2="250"/>
+    <line x1="100" y1="0" x2="100" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="400" y1="0" x2="400" y2="300"/>
+    <line x1="500" y1="0" x2="500" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="700" y1="0" x2="700" y2="300"/>
+    <line x1="800" y1="0" x2="800" y2="300"/>
+  </g>
+
+  <!-- Corner brackets — primary HUD frame -->
+  <g stroke="#00ff41" stroke-width="2" fill="none" stroke-opacity="0.7">
+    <polyline points="15,35 15,12 38,12"/>
+    <polyline points="862,12 885,12 885,35"/>
+    <polyline points="885,265 885,288 862,288"/>
+    <polyline points="38,288 15,288 15,265"/>
+  </g>
+  <!-- Corner brackets — secondary accent -->
+  <g stroke="#00d4ff" stroke-width="1" fill="none" stroke-opacity="0.25">
+    <polyline points="20,42 20,18 44,18"/>
+    <polyline points="856,18 880,18 880,42"/>
+    <polyline points="880,258 880,282 856,282"/>
+    <polyline points="44,282 20,282 20,258"/>
+  </g>
+  <!-- Corner dots -->
+  <circle cx="15" cy="12" r="2" fill="#00ff41" opacity="0.5"/>
+  <circle cx="885" cy="12" r="2" fill="#00ff41" opacity="0.5"/>
+  <circle cx="885" cy="288" r="2" fill="#00ff41" opacity="0.5"/>
+  <circle cx="15" cy="288" r="2" fill="#00ff41" opacity="0.5"/>
+
+  <!-- ═══ RADAR SECTION (right side) ═══ -->
+  <g transform="translate(745, 148)">
+    <circle r="100" fill="url(#radarGlow)"/>
+
+    <!-- Concentric rings -->
+    <circle r="95" fill="none" stroke="#00ff41" stroke-opacity="0.07" stroke-width="0.5" stroke-dasharray="4,4"/>
+    <circle r="75" fill="none" stroke="#00ff41" stroke-opacity="0.09" stroke-width="0.5"/>
+    <circle r="55" fill="none" stroke="#00ff41" stroke-opacity="0.11" stroke-width="0.5"/>
+    <circle r="35" fill="none" stroke="#00ff41" stroke-opacity="0.14" stroke-width="0.5"/>
+    <circle r="15" fill="none" stroke="#00ff41" stroke-opacity="0.18" stroke-width="0.5"/>
+    <circle r="3" fill="#00ff41" opacity="0.4"/>
+
+    <!-- Crosshairs -->
+    <line x1="-100" y1="0" x2="100" y2="0" stroke="#00ff41" stroke-opacity="0.05" stroke-width="0.5"/>
+    <line x1="0" y1="-100" x2="0" y2="100" stroke="#00ff41" stroke-opacity="0.05" stroke-width="0.5"/>
+    <line x1="-71" y1="-71" x2="71" y2="71" stroke="#00ff41" stroke-opacity="0.03" stroke-width="0.5"/>
+    <line x1="-71" y1="71" x2="71" y2="-71" stroke="#00ff41" stroke-opacity="0.03" stroke-width="0.5"/>
+
+    <!-- Tick marks on outer ring -->
+    <g stroke="#00ff41" stroke-opacity="0.2" stroke-width="1">
+      <line x1="0" y1="-90" x2="0" y2="-95"/>
+      <line x1="0" y1="90" x2="0" y2="95"/>
+      <line x1="-90" y1="0" x2="-95" y2="0"/>
+      <line x1="90" y1="0" x2="95" y2="0"/>
+    </g>
+
+    <!-- Rotating sweep beam -->
+    <g>
+      <line x1="0" y1="0" x2="0" y2="-90" stroke="#00ff41" stroke-opacity="0.5" stroke-width="1.5"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </g>
+    <!-- Sweep trail wedge -->
+    <g opacity="0.7">
+      <path d="M0,0 L0,-88 A88,88 0 0,1 30,-83 Z" fill="#00ff41" opacity="0.04"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Radar blips -->
+    <circle cx="28" cy="-40" r="3" fill="#00d4ff" opacity="0">
+      <animate attributeName="opacity" values="0;0.9;0.8;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-45" cy="22" r="2.5" fill="#ff6600" opacity="0">
+      <animate attributeName="opacity" values="0;0.8;0.7;0" dur="8s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <circle cx="18" cy="55" r="2" fill="#00ff41" opacity="0">
+      <animate attributeName="opacity" values="0;0.75;0.65;0" dur="8s" repeatCount="indefinite" begin="4s"/>
+    </circle>
+    <circle cx="-58" cy="-32" r="2.5" fill="#00d4ff" opacity="0">
+      <animate attributeName="opacity" values="0;0.65;0.55;0" dur="8s" repeatCount="indefinite" begin="6s"/>
+    </circle>
+    <circle cx="50" cy="-15" r="2" fill="#a855f7" opacity="0">
+      <animate attributeName="opacity" values="0;0.7;0.6;0" dur="8s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+
+    <!-- RADAR label -->
+    <text x="0" y="115" text-anchor="middle" fill="#00ff41" font-family="'Courier New', monospace" font-size="8" letter-spacing="3" opacity="0.35">THREAT RADAR</text>
+  </g>
+
+  <!-- ═══ SCANNING LINE ═══ -->
+  <rect x="15" y="12" width="870" height="2" fill="url(#scanGrad)" opacity="0.8">
+    <animate attributeName="y" values="12;286;12" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ═══ TEXT CONTENT (left side) ═══ -->
+
+  <!-- System designation bar -->
+  <text x="50" y="45" fill="#00ff41" font-family="'Courier New', monospace" font-size="9" letter-spacing="2" opacity="0.45">
+    TACTICAL OPERATIONS PROFILE v2.0 // UNCLASSIFIED
+  </text>
+
+  <!-- Decorative accent block -->
+  <rect x="50" y="58" width="3" height="30" fill="#ff6600" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Main name -->
+  <text x="62" y="83" fill="#ffffff" font-family="'Courier New', monospace" font-size="34" font-weight="bold" filter="url(#glow)">
+    NICHOLAS A. CHADWICK
+  </text>
+
+  <!-- Primary role -->
+  <text x="50" y="120" fill="#00ff41" font-family="'Courier New', monospace" font-size="16" filter="url(#glow)" letter-spacing="1">
+    Cloud &amp; Data Technical Lead
+  </text>
+
+  <!-- Secondary description -->
+  <text x="50" y="148" fill="#00d4ff" font-family="'Courier New', monospace" font-size="12" opacity="0.75">
+    AI/ML Engineer  &#9642;  Army Veteran  &#9642;  National Security
+  </text>
+
+  <!-- Thin separator -->
+  <line x1="50" y1="165" x2="380" y2="165" stroke="#00ff41" stroke-opacity="0.15" stroke-width="0.5"/>
+
+  <!-- Status indicators row -->
+  <g transform="translate(50, 192)">
+    <circle cx="5" cy="0" r="4" fill="#00ff41" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="16" y="4" fill="#00ff41" font-family="'Courier New', monospace" font-size="10" opacity="0.7">ACTIVE</text>
+
+    <circle cx="90" cy="0" r="4" fill="#00d4ff" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="101" y="4" fill="#00d4ff" font-family="'Courier New', monospace" font-size="10" opacity="0.7">TS/SCI</text>
+
+    <circle cx="170" cy="0" r="4" fill="#ff6600" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="181" y="4" fill="#ff6600" font-family="'Courier New', monospace" font-size="10" opacity="0.7">AI ENABLED</text>
+
+    <circle cx="280" cy="0" r="4" fill="#a855f7" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="291" y="4" fill="#a855f7" font-family="'Courier New', monospace" font-size="10" opacity="0.7">CISSP</text>
+
+    <circle cx="355" cy="0" r="4" fill="#22d3ee" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="366" y="4" fill="#22d3ee" font-family="'Courier New', monospace" font-size="10" opacity="0.7">CLOUD</text>
+  </g>
+
+  <!-- Data readout elements -->
+  <g transform="translate(50, 225)">
+    <text fill="#8892b0" font-family="'Courier New', monospace" font-size="9" opacity="0.3">
+      MOS: 255A/S  &#9642;  SVC: 24+ YRS  &#9642;  REGION: CENTCOM / CONUS
+    </text>
+  </g>
+
+  <!-- Bottom status bar -->
+  <line x1="50" y1="252" x2="620" y2="252" stroke="#00ff41" stroke-opacity="0.12" stroke-width="0.5"/>
+  <text x="50" y="270" fill="#8892b0" font-family="'Courier New', monospace" font-size="9" opacity="0.35">
+    OPS: GCP &#9642; AWS &#9642; AZURE &#9642; K8S &#9642; GENAI &#9642; GEMINI &#9642; DEVSECOPS &#9642; ZERO TRUST
+  </text>
+
+  <!-- Decorative mini-graph (bottom-left) -->
+  <g transform="translate(540, 240)" opacity="0.2">
+    <polyline points="0,20 8,15 16,18 24,8 32,12 40,5 48,10 56,3 64,7 72,2" fill="none" stroke="#00d4ff" stroke-width="1"/>
+    <circle cx="72" cy="2" r="2" fill="#00d4ff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

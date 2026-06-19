@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110">
+  <defs>
+    <linearGradient id="bgF" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="topLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00ff41" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#00d4ff" stop-opacity="0.6"/>
+      <stop offset="80%" stop-color="#00ff41" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="sigGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="borderGradF" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00ff41" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#00d4ff" stop-opacity="0.18"/>
+      <stop offset="80%" stop-color="#00ff41" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="110" fill="url(#bgF)"/>
+
+  <!-- Outer border -->
+  <rect x="1" y="1" width="898" height="108" fill="none" stroke="url(#borderGradF)" stroke-width="1" rx="3"/>
+
+  <!-- Grid -->
+  <g stroke="#00ff41" stroke-opacity="0.025" stroke-width="0.5">
+    <line x1="0" y1="27" x2="900" y2="27"/>
+    <line x1="0" y1="55" x2="900" y2="55"/>
+    <line x1="0" y1="82" x2="900" y2="82"/>
+    <line x1="100" y1="0" x2="100" y2="110"/>
+    <line x1="200" y1="0" x2="200" y2="110"/>
+    <line x1="300" y1="0" x2="300" y2="110"/>
+    <line x1="400" y1="0" x2="400" y2="110"/>
+    <line x1="500" y1="0" x2="500" y2="110"/>
+    <line x1="600" y1="0" x2="600" y2="110"/>
+    <line x1="700" y1="0" x2="700" y2="110"/>
+    <line x1="800" y1="0" x2="800" y2="110"/>
+  </g>
+
+  <!-- Corner brackets -->
+  <g stroke="#00ff41" stroke-width="2" fill="none" stroke-opacity="0.45">
+    <polyline points="15,28 15,12 31,12"/>
+    <polyline points="869,12 885,12 885,28"/>
+    <polyline points="885,82 885,98 869,98"/>
+    <polyline points="31,98 15,98 15,82"/>
+  </g>
+  <!-- Corner dots -->
+  <circle cx="15" cy="12" r="1.5" fill="#00ff41" opacity="0.35"/>
+  <circle cx="885" cy="12" r="1.5" fill="#00ff41" opacity="0.35"/>
+  <circle cx="885" cy="98" r="1.5" fill="#00ff41" opacity="0.35"/>
+  <circle cx="15" cy="98" r="1.5" fill="#00ff41" opacity="0.35"/>
+
+  <!-- Top accent line -->
+  <line x1="40" y1="5" x2="860" y2="5" stroke="url(#topLine)" stroke-width="1"/>
+
+  <!-- Signal pulse (center) -->
+  <circle cx="450" cy="45" r="5" fill="#00ff41" filter="url(#sigGlow)" opacity="0.6">
+    <animate attributeName="r" values="5;12;5" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.05;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="45" r="2.5" fill="#00ff41" opacity="0.9"/>
+
+  <!-- Signal rings -->
+  <circle cx="450" cy="45" r="18" fill="none" stroke="#00ff41" stroke-opacity="0" stroke-width="0.8">
+    <animate attributeName="r" values="8;30;8" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.3;0;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- END TRANSMISSION text -->
+  <text x="450" y="78" text-anchor="middle" fill="#00ff41" font-family="'Courier New', monospace" font-size="9" letter-spacing="4" opacity="0.4">
+    SIGNAL CLEAR // END TRANSMISSION
+  </text>
+
+  <!-- Side labels -->
+  <text x="50" y="50" fill="#8892b0" font-family="'Courier New', monospace" font-size="8" opacity="0.25">
+    MLCYCLOPS.SYS
+  </text>
+  <text x="850" y="50" text-anchor="end" fill="#8892b0" font-family="'Courier New', monospace" font-size="8" opacity="0.25">
+    v2.0 // 2026
+  </text>
+
+  <!-- Bottom status -->
+  <text x="450" y="98" text-anchor="middle" fill="#8892b0" font-family="'Courier New', monospace" font-size="7" opacity="0.2">
+    COVERT CONSORTIUM  &#9642;  aiworkshopapps.com  &#9642;  Do, Not Talk
+  </text>
+</svg>

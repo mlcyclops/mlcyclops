@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#00ff41" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#00d4ff" stop-opacity="0.7"/>
+      <stop offset="85%" stop-color="#00ff41" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="nodeGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main line -->
+  <line x1="40" y1="12" x2="860" y2="12" stroke="url(#lineGrad)" stroke-width="1"/>
+
+  <!-- Center node (pulsing) -->
+  <circle cx="450" cy="12" r="4" fill="#00d4ff" filter="url(#nodeGlow)" opacity="0.8">
+    <animate attributeName="r" values="4;7;4" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="12" r="2" fill="#00d4ff"/>
+
+  <!-- Diamond accents -->
+  <polygon points="180,12 184,8 188,12 184,16" fill="#00ff41" opacity="0.35"/>
+  <polygon points="712,12 716,8 720,12 716,16" fill="#00ff41" opacity="0.35"/>
+
+  <!-- Small tick marks -->
+  <line x1="300" y1="9" x2="300" y2="15" stroke="#00ff41" stroke-opacity="0.2" stroke-width="1"/>
+  <line x1="600" y1="9" x2="600" y2="15" stroke="#00ff41" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Outer dots -->
+  <circle cx="100" cy="12" r="1.5" fill="#00ff41" opacity="0.25"/>
+  <circle cx="800" cy="12" r="1.5" fill="#00ff41" opacity="0.25"/>
+</svg>
