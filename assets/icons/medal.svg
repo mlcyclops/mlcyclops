@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M26 6 H38 L35 20 H29 Z" stroke="#ffd700" stroke-width="2.5" fill="#ffd700" fill-opacity="0.25"/>
+<circle cx="32" cy="36" r="16" stroke="#ffd700" stroke-width="3.5"/>
+<path d="M32 26 L35 33 L42 33.6 L37 38.4 L38.4 45.4 L32 42 L25.6 45.4 L27 38.4 L22 33.6 L29 33 Z" fill="#ffd700">
+  <animate attributeName="opacity" values="1;0.45;1" dur="2.5s" repeatCount="indefinite"/>
+</path>
+</g>
+</svg>

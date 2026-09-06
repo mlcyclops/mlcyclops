@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<g>
+  <ellipse cx="32" cy="32" rx="22" ry="22" stroke="#ffd700" stroke-width="3.5">
+    <animate attributeName="rx" values="22;7;22" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <path d="M32 20 V44 M38 24 H29 A 4.5 4.5 0 0 0 29 33 H35 A 4.5 4.5 0 0 1 35 42 H26" stroke="#ffd700" stroke-width="3">
+    <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite"/>
+  </path>
+</g>
+</g>
+</svg>

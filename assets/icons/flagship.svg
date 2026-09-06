@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M32 6 L54 14 V32 C54 46 44 54 32 58 C20 54 10 46 10 32 V14 Z" stroke="#00d4ff" stroke-width="3.5"/>
+<path d="M32 12 L48 18 V32 C48 42 41 48 32 51 C23 48 16 42 16 32 V18 Z" stroke="#00ff41" stroke-width="2" opacity="0.5"/>
+<line x1="14" y1="20" x2="50" y2="20" stroke="#00ff41" stroke-width="2.5" filter="url(#g)" opacity="0.9">
+  <animate attributeName="y1" values="16;52;16" dur="3.5s" repeatCount="indefinite"/>
+  <animate attributeName="y2" values="16;52;16" dur="3.5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.9;0.3;0.9" dur="3.5s" repeatCount="indefinite"/>
+</line>
+</g>
+</svg>
