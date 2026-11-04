@@ -1,40 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="28" viewBox="0 0 900 28">
   <defs>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
-      <stop offset="15%" stop-color="#00ff41" stop-opacity="0.3"/>
-      <stop offset="50%" stop-color="#00d4ff" stop-opacity="0.7"/>
-      <stop offset="85%" stop-color="#00ff41" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="860" y2="0">
+      <stop offset="0" stop-color="#4fe08a" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#4fe08a" stop-opacity="0.45"/>
+      <stop offset="0.42" stop-color="#3ee8f0" stop-opacity="0.8"/>
+      <stop offset="0.58" stop-color="#a06bff" stop-opacity="0.8"/>
+      <stop offset="0.8" stop-color="#c86be0" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#c86be0" stop-opacity="0"/>
     </linearGradient>
-    <filter id="nodeGlow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <linearGradient id="tri" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3ee8f0"/>
+      <stop offset="0.5" stop-color="#a06bff"/>
+      <stop offset="1" stop-color="#c86be0"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <!-- Main line -->
-  <line x1="40" y1="12" x2="860" y2="12" stroke="url(#lineGrad)" stroke-width="1"/>
+  <line x1="40" y1="14" x2="436" y2="14" stroke="url(#line)" stroke-width="1"/>
+  <line x1="464" y1="14" x2="860" y2="14" stroke="url(#line)" stroke-width="1"/>
 
-  <!-- Center node (pulsing) -->
-  <circle cx="450" cy="12" r="4" fill="#00d4ff" filter="url(#nodeGlow)" opacity="0.8">
-    <animate attributeName="r" values="4;7;4" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="12" r="2" fill="#00d4ff"/>
+  <!-- prism node -->
+  <path d="M450 4 L460 22 L440 22 Z" fill="#a06bff" fill-opacity="0.12" stroke="url(#tri)" stroke-width="1.6" stroke-linejoin="round" filter="url(#glow)">
+    <animate attributeName="fill-opacity" values="0.12;0.35;0.12" dur="4s" repeatCount="indefinite"/>
+  </path>
 
-  <!-- Diamond accents -->
-  <polygon points="180,12 184,8 188,12 184,16" fill="#00ff41" opacity="0.35"/>
-  <polygon points="712,12 716,8 720,12 716,16" fill="#00ff41" opacity="0.35"/>
-
-  <!-- Small tick marks -->
-  <line x1="300" y1="9" x2="300" y2="15" stroke="#00ff41" stroke-opacity="0.2" stroke-width="1"/>
-  <line x1="600" y1="9" x2="600" y2="15" stroke="#00ff41" stroke-opacity="0.2" stroke-width="1"/>
-
-  <!-- Outer dots -->
-  <circle cx="100" cy="12" r="1.5" fill="#00ff41" opacity="0.25"/>
-  <circle cx="800" cy="12" r="1.5" fill="#00ff41" opacity="0.25"/>
+  <g opacity="0.55">
+    <polygon points="180,14 184,10 188,14 184,18" fill="#4fe08a"/>
+    <polygon points="300,14 303,11 306,14 303,17" fill="#3ee8f0"/>
+    <polygon points="594,14 597,11 600,14 597,17" fill="#a06bff"/>
+    <polygon points="712,14 716,10 720,14 716,18" fill="#c86be0"/>
+  </g>
 </svg>

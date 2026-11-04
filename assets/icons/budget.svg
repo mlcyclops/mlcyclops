@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
 <defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
 <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path d="M10 8 V54 H58" stroke="#8892b0" stroke-width="3"/>
-<rect x="16" y="38" width="8" height="16" fill="#00d4ff" opacity="0.75">
+<path d="M10 8 V54 H58" stroke="#93a4b3" stroke-width="3"/>
+<rect x="16" y="38" width="8" height="16" fill="#3ee8f0" opacity="0.75">
   <animate attributeName="y" values="38;42;38" dur="3s" repeatCount="indefinite"/>
   <animate attributeName="height" values="16;12;16" dur="3s" repeatCount="indefinite"/>
 </rect>
-<rect x="28" y="30" width="8" height="24" fill="#00d4ff" opacity="0.75">
+<rect x="28" y="30" width="8" height="24" fill="#3ee8f0" opacity="0.75">
   <animate attributeName="y" values="30;34;30" dur="3s" begin="0.4s" repeatCount="indefinite"/>
   <animate attributeName="height" values="24;20;24" dur="3s" begin="0.4s" repeatCount="indefinite"/>
 </rect>
-<rect x="40" y="22" width="8" height="32" fill="#00d4ff" opacity="0.75">
+<rect x="40" y="22" width="8" height="32" fill="#3ee8f0" opacity="0.75">
   <animate attributeName="y" values="22;26;22" dur="3s" begin="0.8s" repeatCount="indefinite"/>
   <animate attributeName="height" values="32;28;32" dur="3s" begin="0.8s" repeatCount="indefinite"/>
 </rect>
-<path d="M14 40 L30 28 L40 32 L54 14" stroke="#00ff41" stroke-width="3" filter="url(#g)" stroke-dasharray="60" stroke-dashoffset="60">
+<path d="M14 40 L30 28 L40 32 L54 14" stroke="#4fe08a" stroke-width="3" filter="url(#g)" stroke-dasharray="60" stroke-dashoffset="60">
   <animate attributeName="stroke-dashoffset" values="60;0;0" keyTimes="0;0.6;1" dur="4s" repeatCount="indefinite"/>
 </path>
-<path d="M54 14 L45 15 M54 14 L52 23" stroke="#00ff41" stroke-width="3">
+<path d="M54 14 L45 15 M54 14 L52 23" stroke="#4fe08a" stroke-width="3">
   <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.55;0.65;1" dur="4s" repeatCount="indefinite"/>
 </path>
 </g>

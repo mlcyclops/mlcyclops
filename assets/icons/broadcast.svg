@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M32 30 L20 58 M32 30 L44 58 M24 48 H40" stroke="#93a4b3" stroke-width="3"/>
+<circle cx="32" cy="26" r="4" stroke="#3ee8f0" stroke-width="3"/>
+<g stroke-width="3">
+  <path d="M22 16 A 14 14 0 0 0 22 36" stroke="#3ee8f0"><animate attributeName="opacity" values="1;0.15;1" dur="2s" repeatCount="indefinite"/></path>
+  <path d="M42 16 A 14 14 0 0 1 42 36" stroke="#3ee8f0"><animate attributeName="opacity" values="1;0.15;1" dur="2s" repeatCount="indefinite"/></path>
+  <path d="M14 10 A 22 22 0 0 0 14 42" stroke="#a06bff"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="2s" begin="0.4s" repeatCount="indefinite"/></path>
+  <path d="M50 10 A 22 22 0 0 1 50 42" stroke="#a06bff"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="2s" begin="0.4s" repeatCount="indefinite"/></path>
+</g>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M32 8 L54 50 H10 Z" stroke="#93a4b3" stroke-width="3" fill="#3ee8f0" fill-opacity="0.06"/>
+<line x1="2" y1="40" x2="22" y2="32" stroke="#ecf4fa" stroke-width="3" filter="url(#g)"/>
+<g stroke-width="2.5" filter="url(#g)">
+  <line x1="42" y1="30" x2="62" y2="22" stroke="#4fe08a"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></line>
+  <line x1="43" y1="33" x2="62" y2="30" stroke="#3ee8f0"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="0.3s" repeatCount="indefinite"/></line>
+  <line x1="44" y1="36" x2="62" y2="38" stroke="#a06bff"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="0.6s" repeatCount="indefinite"/></line>
+  <line x1="45" y1="39" x2="62" y2="46" stroke="#c86be0"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="0.9s" repeatCount="indefinite"/></line>
+</g>
+<rect x="27" y="34" width="10" height="8" rx="1.5" fill="#00ffd1" fill-opacity="0.35" stroke="#00ffd1" stroke-width="2"/>
+<path d="M29 34 V31 A 3 3 0 0 1 35 31 V34" stroke="#00ffd1" stroke-width="2"/>
+<circle cx="32" cy="38" r="1.4" fill="#00ffd1"/>
+</g>
+</svg>

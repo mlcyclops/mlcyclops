@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="32" cy="32" r="20" stroke="#93a4b3" stroke-width="2" stroke-dasharray="4 4" opacity="0.6">
+  <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="12s" repeatCount="indefinite"/>
+</circle>
+<circle cx="32" cy="12" r="5" fill="#03060b" stroke="#e6c65c" stroke-width="3"/>
+<circle cx="52" cy="32" r="5" fill="#03060b" stroke="#3ee8f0" stroke-width="3"/>
+<circle cx="32" cy="52" r="5" fill="#03060b" stroke="#a06bff" stroke-width="3"/>
+<circle cx="12" cy="32" r="5" fill="#03060b" stroke="#c86be0" stroke-width="3"/>
+</g>
+</svg>

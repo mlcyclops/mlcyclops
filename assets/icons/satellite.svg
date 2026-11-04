@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
 <defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
 <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-<rect x="26" y="24" width="12" height="16" rx="2" stroke="#00d4ff" stroke-width="3" transform="rotate(45 32 32)"/>
-<g stroke="#00d4ff" stroke-width="2.5" transform="rotate(45 32 32)">
+<rect x="26" y="24" width="12" height="16" rx="2" stroke="#3ee8f0" stroke-width="3" transform="rotate(45 32 32)"/>
+<g stroke="#3ee8f0" stroke-width="2.5" transform="rotate(45 32 32)">
   <rect x="8" y="27" width="13" height="10" rx="1"/>
   <rect x="43" y="27" width="13" height="10" rx="1"/>
   <line x1="21" y1="32" x2="26" y2="32"/><line x1="38" y1="32" x2="43" y2="32"/>
 </g>
-<path d="M40 14 A 14 14 0 0 1 50 24" stroke="#00ff41" stroke-width="2.5" opacity="0.9">
+<path d="M40 14 A 14 14 0 0 1 50 24" stroke="#4fe08a" stroke-width="2.5" opacity="0.9">
   <animate attributeName="opacity" values="0.9;0.15;0.9" dur="2s" repeatCount="indefinite"/>
 </path>
-<path d="M44 8 A 21 21 0 0 1 56 20" stroke="#00ff41" stroke-width="2.5" opacity="0.5">
+<path d="M44 8 A 21 21 0 0 1 56 20" stroke="#4fe08a" stroke-width="2.5" opacity="0.5">
   <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2s" begin="0.4s" repeatCount="indefinite"/>
 </path>
 </g>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
 <defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
 <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-<g stroke="#ff6600" stroke-width="3.5">
+<g stroke="#f6ad55" stroke-width="3.5">
   <circle cx="32" cy="32" r="12"/>
   <g>
     <line x1="32" y1="10" x2="32" y2="17"/><line x1="32" y1="47" x2="32" y2="54"/>
@@ -11,8 +11,6 @@
     <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" dur="12s" repeatCount="indefinite"/>
   </g>
 </g>
-<circle cx="32" cy="32" r="4.5" fill="#ff6600" opacity="0.9">
-  <animate attributeName="opacity" values="0.9;0.4;0.9" dur="3s" repeatCount="indefinite"/>
-</circle>
+<circle cx="32" cy="32" r="4.5" stroke="#f6ad55" stroke-width="2.5"/>
 </g>
 </svg>
