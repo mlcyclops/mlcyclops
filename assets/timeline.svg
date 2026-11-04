@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" role="img" aria-labelledby="t d">
+  <title id="t">26 years delivering mission outcomes</title>
+  <desc id="d">2000 enlisted, Army Reserve network operator. 2006 AI fielded in combat: ARL AI translation in Iraq, 350+ soldier task force. 2016 USSOCOM senior cloud architect, cloud-to-edge. 2019 75th Innovation Command AI Detachment, AFCEA 40 Under 40. 2021 NT Concepts, first GCP IL5 enclave for USAF, PI on Army SBIR. 2024 Army expert evaluator for Zero Trust, SATCOM, AutoPACE AI/ML. 2026 founded TECHLEAD 187 LLC, shipped LUCID Agent IDE, SOF RACER member No. 893.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101a"/>
+      <stop offset="1" stop-color="#03060b"/>
+    </linearGradient>
+    <linearGradient id="axis" gradientUnits="userSpaceOnUse" x1="30" y1="0" x2="870" y2="0">
+      <stop offset="0" stop-color="#a3b4c3" stop-opacity="0.2"/>
+      <stop offset="0.2" stop-color="#4fe08a" stop-opacity="0.6"/>
+      <stop offset="0.45" stop-color="#3ee8f0" stop-opacity="0.7"/>
+      <stop offset="0.7" stop-color="#a06bff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#c86be0" stop-opacity="0.7"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0 H0 V30" fill="none" stroke="#3ee8f0" stroke-opacity="0.04" stroke-width="0.6"/>
+    </pattern>
+    <clipPath id="frame"><rect width="900" height="210" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="210" fill="url(#bg)"/>
+    <rect width="900" height="210" fill="url(#grid)"/>
+    <!-- current-chapter highlight -->
+    <rect x="752" y="56" width="116" height="140" rx="10" fill="#e6c65c" fill-opacity="0.05" stroke="#e6c65c" stroke-opacity="0.3"/>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="209" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+
+  <text x="30" y="34" fill="#556574" font-family="ui-monospace, 'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="2.2">TL187://SERVICE-RECORD  ·  26 YEARS DELIVERING MISSION OUTCOMES</text>
+
+  <!-- axis -->
+  <line x1="30" y1="106" x2="870" y2="106" stroke="url(#axis)" stroke-width="1.5"/>
+
+  <!-- markers: open diamonds, no glow -->
+  <g fill="#03060b" stroke-width="1.6">
+    <path d="M90 100 L96 106 L90 112 L84 106 Z" stroke="#a3b4c3"/>
+    <path d="M210 100 L216 106 L210 112 L204 106 Z" stroke="#4fe08a"/>
+    <path d="M330 100 L336 106 L330 112 L324 106 Z" stroke="#3ee8f0"/>
+    <path d="M450 100 L456 106 L450 112 L444 106 Z" stroke="#5b8cff"/>
+    <path d="M570 100 L576 106 L570 112 L564 106 Z" stroke="#a06bff"/>
+    <path d="M690 100 L696 106 L690 112 L684 106 Z" stroke="#c86be0"/>
+    <path d="M810 100 L816 106 L810 112 L804 106 Z" stroke="#e6c65c"/>
+  </g>
+
+  <!-- years -->
+  <g font-family="ui-monospace, 'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="1">
+    <text x="90" y="88" fill="#a3b4c3">2000</text>
+    <text x="210" y="88" fill="#4fe08a">2006</text>
+    <text x="330" y="88" fill="#3ee8f0">2016</text>
+    <text x="450" y="88" fill="#5b8cff">2019</text>
+    <text x="570" y="88" fill="#a06bff">2021</text>
+    <text x="690" y="88" fill="#c86be0">2024</text>
+    <text x="810" y="88" fill="#e6c65c">2026</text>
+  </g>
+
+  <!-- chapter titles -->
+  <g font-family="Inter, 'Segoe UI Variable', 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#ecf4fa" text-anchor="middle">
+    <text x="90" y="138">Enlisted</text>
+    <text x="210" y="138">AI in combat</text>
+    <text x="330" y="138">USSOCOM</text>
+    <text x="450" y="138">75th Innov. Cmd</text>
+    <text x="570" y="138">NT Concepts</text>
+    <text x="690" y="138">Army evaluator</text>
+    <text x="810" y="138">TECHLEAD 187</text>
+  </g>
+
+  <!-- details -->
+  <g font-family="Inter, 'Segoe UI Variable', 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#a3b4c3" text-anchor="middle">
+    <text x="90" y="158">Army Reserve</text>
+    <text x="90" y="174">network operator</text>
+    <text x="210" y="158">ARL AI translation</text>
+    <text x="210" y="174">Iraq · 350+ troops</text>
+    <text x="330" y="158">Sr Cloud Architect</text>
+    <text x="330" y="174">cloud-to-edge</text>
+    <text x="450" y="158">AI Detachment</text>
+    <text x="450" y="174">AFCEA 40 Under 40</text>
+    <text x="570" y="158">1st GCP IL5 · USAF</text>
+    <text x="570" y="174">PI · Army SBIR</text>
+    <text x="690" y="158">Zero Trust · SATCOM</text>
+    <text x="690" y="174">AutoPACE AI/ML</text>
+    <text x="810" y="158">LUCID Agent IDE</text>
+    <text x="810" y="174">SOF RACER No. 893</text>
+  </g>
+</svg>

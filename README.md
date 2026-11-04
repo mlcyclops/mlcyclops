@@ -299,17 +299,7 @@ Household health, insurance and property-tax AI on a knowledge graph that stays 
 
 ## <img src="assets/icons/longgame.svg" width="28" align="top" alt=""> 07 // Chief Warrant Officer to tech executive
 
-```mermaid
-timeline
-    title 26 years delivering mission outcomes
-    2000 : Enlisted, Army Reserve network operator
-    2006 : Fielded ARL's first AI translation capability in Iraq, 350+ soldier task force
-    2016 : Senior Cloud Architect, USSOCOM - cloud-to-edge, computer vision at the edge, Zero Trust
-    2019 : 75th Innovation Command AI Detachment - AFCEA 40 Under 40 - AUSA Officer of the Year
-    2021 : GenAI & Cloud Technical Lead, NT Concepts - first GCP IL5 enclave (USAF) - PI, Army SBIR predictive logistics
-    2024 : Army expert evaluator - next-gen Zero Trust, SATCOM, AutoPACE AI/ML networking
-    2026 : Founded TECHLEAD 187 LLC - shipped LUCID Agent IDE - SOF RACER member
-```
+<img src="assets/timeline.svg" width="100%" alt="2000 enlisted, Army Reserve network operator · 2006 AI fielded in combat, Iraq · 2016 USSOCOM senior cloud architect · 2019 75th Innovation Command AI Detachment, AFCEA 40 Under 40 · 2021 NT Concepts, first GCP IL5 enclave (USAF), PI on Army SBIR · 2024 Army expert evaluator · 2026 founded TECHLEAD 187 LLC, LUCID Agent IDE, SOF RACER No. 893" />
 
 - <img src="assets/icons/satellite.svg" width="18" align="absmiddle" alt=""> **AI fielded in combat (2006)** - installed and ran the Army Research Laboratory's first AI-powered translation capability: Arabic broadcast TV to English in under a second, networked across a 350+ soldier task force during the Surge.
 - <img src="assets/icons/vision.svg" width="18" align="absmiddle" alt=""> **USSOCOM (2016-21)** - cloud-to-edge for denied environments; with Google, deployed containerized AutoML computer vision on remote edge systems; certified data-science platforms in classified environments.
