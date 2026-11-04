@@ -16,7 +16,7 @@
 
 <div align="center">
 
-<a href="https://techlead187.com"><img src="assets/header.svg" alt="Nick Chadwick · TECHLEAD 187 · Exceptionally fast. Secure by design." width="100%" /></a>
+<a href="https://techlead187.com"><img src="assets/header.svg?v=2" alt="Nick Chadwick · TECHLEAD 187 · Exceptionally fast. Secure by design." width="100%" /></a>
 
 <br/>
 
@@ -38,7 +38,7 @@ with the evidence leadership needs to approve them. <b>Speed is cheap. Trust is 
 
 <br/><br/>
 
-<img src="assets/terminal.svg" width="100%" alt="$ tl187 mission --brief: map MAPPED, build GREEN, gate ARMED, prove PASS, hand READY. Mission ready, human judgment in the loop." />
+<img src="assets/terminal.svg?v=2" width="100%" alt="$ tl187 mission --brief: map MAPPED, build GREEN, gate ARMED, prove PASS, hand READY. Mission ready, human judgment in the loop." />
 
 <table>
 <tr>
@@ -52,9 +52,9 @@ with the evidence leadership needs to approve them. <b>Speed is cheap. Trust is 
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
-## <img src="assets/icons/prism.svg" width="28" align="top" alt=""> 01 // Flagship · LUCID Agent IDE
+## <img src="assets/icons/prism.svg?v=2" width="28" align="top" alt=""> 01 // Flagship · LUCID Agent IDE
 
 <div align="center">
 
@@ -94,12 +94,12 @@ A **secure-AI application platform**, far beyond a coding agent: build agents an
 </tr>
 </table>
 
-- <img src="assets/icons/lock.svg" width="18" align="absmiddle" alt=""> **Fail-closed gate** on every tool call - kill the scanner mid-run and it *blocks*. Even Save in the IDE is scanned.
-- <img src="assets/icons/agent.svg" width="18" align="absmiddle" alt=""> **Fleet Mode** - many gated agents at once, each on its own repo and model, every reply scanned; one AOS-1 goal with a spend and time budget, and tasks verified before they count.
-- <img src="assets/icons/dna.svg" width="18" align="absmiddle" alt=""> **Provenance-backed memory** + an encrypted personalization knowledge graph - poisoned content never auto-promotes into what the agent remembers.
-- <img src="assets/icons/idbadge.svg" width="18" align="absmiddle" alt=""> **AI-authorship attribution** - a tamper-evident ledger of which model wrote which lines.
-- <img src="assets/icons/mic.svg" width="18" align="absmiddle" alt=""> **Remote, Voice & Trainer** - drive your desktop agent from your phone end-to-end encrypted, talk to it hands-free (fully offline capable), and let the LUCID Trainer interview your experts into drills.
-- <img src="assets/icons/coin.svg" width="18" align="absmiddle" alt=""> **Metadata-only governance telemetry** + cross-model cost showback, `lucid hub` control plane, and signed `.lplugin` premium plugins.
+- <img src="assets/icons/lock.svg?v=2" width="18" align="absmiddle" alt=""> **Fail-closed gate** on every tool call - kill the scanner mid-run and it *blocks*. Even Save in the IDE is scanned.
+- <img src="assets/icons/agent.svg?v=2" width="18" align="absmiddle" alt=""> **Fleet Mode** - many gated agents at once, each on its own repo and model, every reply scanned; one AOS-1 goal with a spend and time budget, and tasks verified before they count.
+- <img src="assets/icons/dna.svg?v=2" width="18" align="absmiddle" alt=""> **Provenance-backed memory** + an encrypted personalization knowledge graph - poisoned content never auto-promotes into what the agent remembers.
+- <img src="assets/icons/idbadge.svg?v=2" width="18" align="absmiddle" alt=""> **AI-authorship attribution** - a tamper-evident ledger of which model wrote which lines.
+- <img src="assets/icons/mic.svg?v=2" width="18" align="absmiddle" alt=""> **Remote, Voice & Trainer** - drive your desktop agent from your phone end-to-end encrypted, talk to it hands-free (fully offline capable), and let the LUCID Trainer interview your experts into drills.
+- <img src="assets/icons/coin.svg?v=2" width="18" align="absmiddle" alt=""> **Metadata-only governance telemetry** + cross-model cost showback, `lucid hub` control plane, and signed `.lplugin` premium plugins.
 
 <div align="center">
 
@@ -111,9 +111,9 @@ A **secure-AI application platform**, far beyond a coding agent: build agents an
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
-## <img src="assets/icons/builds.svg" width="28" align="top" alt=""> 02 // Shipped & in the field
+## <img src="assets/icons/builds.svg?v=2" width="28" align="top" alt=""> 02 // Shipped & in the field
 
 <sub>Live products from TECHLEAD 187 and builds from the C.O.V.E.R.T. workshops. <b>We ship what we advise.</b></sub>
 
@@ -121,7 +121,7 @@ A **secure-AI application platform**, far beyond a coding agent: build agents an
 <tr>
 <td width="50%" valign="top">
 
-### <img src="assets/icons/gradcap.svg" width="22" align="absmiddle" alt=""> [Tactical GenAI Trainer](https://tacticalgenaitrainer.com/)
+### <img src="assets/icons/gradcap.svg?v=2" width="22" align="absmiddle" alt=""> [Tactical GenAI Trainer](https://tacticalgenaitrainer.com/)
 `EDTECH · WORKFORCE` `DELIVERED`
 
 Free, self-paced certification training: **11 curricula, 202 modules** across generative AI, cloud architecture, cloud security, and CMMC CUI awareness, with printable contact-hour certificates.
@@ -129,7 +129,7 @@ Free, self-paced certification training: **11 curricula, 202 modules** across ge
 </td>
 <td width="50%" valign="top">
 
-### <img src="assets/icons/chart.svg" width="22" align="absmiddle" alt=""> [AgenticTrade187](https://aiworkshopapps.com/agentictrade187)
+### <img src="assets/icons/chart.svg?v=2" width="22" align="absmiddle" alt=""> [AgenticTrade187](https://aiworkshopapps.com/agentictrade187)
 `FINTECH · AGENTS` `PAPER FIRST`
 
 A trading desk AI agents can run: server-side risk gate, kill switch, **Strategy Studio** honest backtests with overfitting receipts, Market Map, Smart Alerts that explain themselves. REST + **57 MCP tools**, 365 offline tests.
@@ -139,7 +139,7 @@ A trading desk AI agents can run: server-side risk gate, kill switch, **Strategy
 <tr>
 <td width="50%" valign="top">
 
-### <img src="assets/icons/planning.svg" width="22" align="absmiddle" alt=""> [MDMP Engine](https://tacticalmdmp.com/) & Joint Planning Engine
+### <img src="assets/icons/planning.svg?v=2" width="22" align="absmiddle" alt=""> [MDMP Engine](https://tacticalmdmp.com/) & Joint Planning Engine
 `DEFENSE · PLANNING` `LIVE · 3-DAY TRIAL`
 
 With [Black Arrow Systems](https://www.blackarrowsystems.net/): the Army's seven-step MDMP as a guided workflow - doctrinal coach, IPB with MIL-STD-2525D mapping, COA war-gaming, one-click WARNORD/OPORD. JPE carries it to the joint force (seeking a government sponsor).
@@ -149,7 +149,7 @@ With [Black Arrow Systems](https://www.blackarrowsystems.net/): the Army's seven
 </td>
 <td width="50%" valign="top">
 
-### <img src="assets/icons/tactical.svg" width="22" align="absmiddle" alt=""> [RAPID-SURVEY](https://aiworkshopapps.com/rapid-survey/index.html)
+### <img src="assets/icons/tactical.svg?v=2" width="22" align="absmiddle" alt=""> [RAPID-SURVEY](https://aiworkshopapps.com/rapid-survey/index.html)
 `DEFENSE · EDGE AI` `PROTOTYPE · TRL 4`
 
 Offline facility survey that keeps working when the network is gone: on-site AI on an **NVIDIA DGX Spark**, a CUI lockdown switch, native AutoCAD DWG + Revit IFC export, route intelligence, CoT for ATAK.
@@ -159,7 +159,7 @@ Offline facility survey that keeps working when the network is gone: on-site AI 
 <tr>
 <td width="50%" valign="top">
 
-### <img src="assets/icons/mic.svg" width="22" align="absmiddle" alt=""> [LUCID Meeting Hub](https://meetinghub.lucid-agents.com/)
+### <img src="assets/icons/mic.svg?v=2" width="22" align="absmiddle" alt=""> [LUCID Meeting Hub](https://meetinghub.lucid-agents.com/)
 `PRIVACY · PRODUCTIVITY`
 
 Meeting capture **without a bot in the room**: local models, a signed journal, and no server holding your conversations.
@@ -167,7 +167,7 @@ Meeting capture **without a bot in the room**: local models, a signed journal, a
 </td>
 <td width="50%" valign="top">
 
-### <img src="assets/icons/atom.svg" width="22" align="absmiddle" alt=""> [Quantum Cloak](https://quantumcloak.aiworkshopapps.com/)
+### <img src="assets/icons/atom.svg?v=2" width="22" align="absmiddle" alt=""> [Quantum Cloak](https://quantumcloak.aiworkshopapps.com/)
 `EDTECH · POST-QUANTUM`
 
 38 narrated 3D modules: BB84 with an eavesdropper on the line, Shor's algorithm on up to 12 simulated qubits, ML-KEM and a CNSA 2.0 migration plan. Every constant cites its primary source.
@@ -177,7 +177,7 @@ Meeting capture **without a bot in the room**: local models, a signed journal, a
 <tr>
 <td width="50%" valign="top">
 
-### <img src="assets/icons/compass.svg" width="22" align="absmiddle" alt=""> [Pathfinder](https://aiworkshopapps.com/pathfinder)
+### <img src="assets/icons/compass.svg?v=2" width="22" align="absmiddle" alt=""> [Pathfinder](https://aiworkshopapps.com/pathfinder)
 `CAREER · RELOCATION`
 
 Evidence-first career and relocation planner for the whole household: fact-checked tailored resumes, OSRM commutes, FEMA flood zones, and a decision brief red-teamed against its own assumptions.
@@ -185,7 +185,7 @@ Evidence-first career and relocation planner for the whole household: fact-check
 </td>
 <td width="50%" valign="top">
 
-### <img src="assets/icons/home.svg" width="22" align="absmiddle" alt=""> [MyHome](https://aiworkshopapps.com/myhome/index.html) & [HomeschoolTutor](https://aiworkshopapps.com/workshop)
+### <img src="assets/icons/home.svg?v=2" width="22" align="absmiddle" alt=""> [MyHome](https://aiworkshopapps.com/myhome/index.html) & [HomeschoolTutor](https://aiworkshopapps.com/workshop)
 `LOCAL-FIRST AI`
 
 Household health, insurance and property-tax AI on a knowledge graph that stays on your computer - and a private learning companion with hint ladders that guide without giving the answer away.
@@ -202,20 +202,20 @@ Household health, insurance and property-tax AI on a knowledge graph that stays 
 
 | Vertical | What it does | Craft |
 |:--|:--|:--|
-| <img src="assets/icons/legaltech.svg" width="18" align="absmiddle" alt=""> **Legaltech** | Citation-bound case-intelligence dashboard fusing eDiscovery, tracking, and AI work product - role-gated to the row | 37 ADRs · 150k+ metadata rows in-process · `Bun` `DuckDB` `Claude` `Cloud Run` |
-| <img src="assets/icons/venue.svg" width="18" align="absmiddle" alt=""> **Smart venues** | Explainable ambiance engine with human-governed recommendations, scenario playback, vision floor-plan studio | CSP pinned to its own sha256 · CodeQL/Trivy/gitleaks gates · `Gemini Vision` |
-| <img src="assets/icons/budget.svg" width="18" align="absmiddle" alt=""> **Defense budgeting** | Knowledge-graph POM/COA and zero-based-transfer analysis, built for government code ownership | Clean-architecture `.NET` · `ML.NET` in-process · `xUnit` |
-| <img src="assets/icons/server.svg" width="18" align="absmiddle" alt=""> **AI infrastructure** | DGX Loader - remote NVIDIA DGX access with tiered VPN/SSH transport detection | `Electron` typed IPC · `Vitest` |
-| <img src="assets/icons/map.svg" width="18" align="absmiddle" alt=""> **Contested logistics** | Ops-intelligence map: threat/port/airfield layers, MGRS grid, synthetic exercise data | `Next.js` |
-| <img src="assets/icons/cards.svg" width="18" align="absmiddle" alt=""> **Certification prep** | Spaced-repetition studio (SuperMemo-2) with grounded pro decks | `Stripe` entitlements |
-| <img src="assets/icons/water.svg" width="18" align="absmiddle" alt=""> **Nonprofit · clean water** | Donation platform funding village water-system repair | Keyless Cloud Run · JSON-LD · $0 idle |
-| <img src="assets/icons/compliance.svg" width="18" align="absmiddle" alt=""> **GovCon compliance** | Workflow, ticketing, and compliance automation (Infrastellis Advisory Group) | ROI-mapped recommendations |
-| <img src="assets/icons/coin.svg" width="18" align="absmiddle" alt=""> **PropTech · consumer fintech** | Turns an opaque annual homeowner ritual into a guided savings play | Investor-ready, brand-first |
-| <img src="assets/icons/spray.svg" width="18" align="absmiddle" alt=""> **Local services** | Growth engineering for a main-street business | Push-notification quote alerts (no SMS spend) · AI-search-optimized schema |
+| <img src="assets/icons/legaltech.svg?v=2" width="18" align="absmiddle" alt=""> **Legaltech** | Citation-bound case-intelligence dashboard fusing eDiscovery, tracking, and AI work product - role-gated to the row | 37 ADRs · 150k+ metadata rows in-process · `Bun` `DuckDB` `Claude` `Cloud Run` |
+| <img src="assets/icons/venue.svg?v=2" width="18" align="absmiddle" alt=""> **Smart venues** | Explainable ambiance engine with human-governed recommendations, scenario playback, vision floor-plan studio | CSP pinned to its own sha256 · CodeQL/Trivy/gitleaks gates · `Gemini Vision` |
+| <img src="assets/icons/budget.svg?v=2" width="18" align="absmiddle" alt=""> **Defense budgeting** | Knowledge-graph POM/COA and zero-based-transfer analysis, built for government code ownership | Clean-architecture `.NET` · `ML.NET` in-process · `xUnit` |
+| <img src="assets/icons/server.svg?v=2" width="18" align="absmiddle" alt=""> **AI infrastructure** | DGX Loader - remote NVIDIA DGX access with tiered VPN/SSH transport detection | `Electron` typed IPC · `Vitest` |
+| <img src="assets/icons/map.svg?v=2" width="18" align="absmiddle" alt=""> **Contested logistics** | Ops-intelligence map: threat/port/airfield layers, MGRS grid, synthetic exercise data | `Next.js` |
+| <img src="assets/icons/cards.svg?v=2" width="18" align="absmiddle" alt=""> **Certification prep** | Spaced-repetition studio (SuperMemo-2) with grounded pro decks | `Stripe` entitlements |
+| <img src="assets/icons/water.svg?v=2" width="18" align="absmiddle" alt=""> **Nonprofit · clean water** | Donation platform funding village water-system repair | Keyless Cloud Run · JSON-LD · $0 idle |
+| <img src="assets/icons/compliance.svg?v=2" width="18" align="absmiddle" alt=""> **GovCon compliance** | Workflow, ticketing, and compliance automation (Infrastellis Advisory Group) | ROI-mapped recommendations |
+| <img src="assets/icons/coin.svg?v=2" width="18" align="absmiddle" alt=""> **PropTech · consumer fintech** | Turns an opaque annual homeowner ritual into a guided savings play | Investor-ready, brand-first |
+| <img src="assets/icons/spray.svg?v=2" width="18" align="absmiddle" alt=""> **Local services** | Growth engineering for a main-street business | Push-notification quote alerts (no SMS spend) · AI-search-optimized schema |
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
-## <img src="assets/icons/method.svg" width="28" align="top" alt=""> 03 // How I work
+## <img src="assets/icons/method.svg?v=2" width="28" align="top" alt=""> 03 // How I work
 
 > **Proof is the system that makes advanced technology dependable.**
 
@@ -230,9 +230,9 @@ Household health, insurance and property-tax AI on a knowledge graph that stays 
 
 **What I deliver:** agentic AI engineering · secure AI platforms & accreditation (RMF, IL5, FedRAMP, CMMC, Zero Trust) · cloud-to-edge architecture for DDIL · data, MLOps & knowledge graphs · AI adoption workshops · GovCon strategy & R&D leadership.
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
-## <img src="assets/icons/forge.svg" width="28" align="top" alt=""> 04 // C.O.V.E.R.T. Consortium · AI workshops
+## <img src="assets/icons/forge.svg?v=2" width="28" align="top" alt=""> 04 // C.O.V.E.R.T. Consortium · AI workshops
 
 **Civilian On-ramp for Veteran Engineering, Rapid Transition.** A rank- and service-agnostic builder community I co-founded, for veterans, active duty, guard, and reserve members who deploy practical GenAI **by doing, not talking** - and transition into real technology careers.
 
@@ -243,15 +243,15 @@ Household health, insurance and property-tax AI on a knowledge graph that stays 
 <a href="https://aiworkshopapps.com"><img src="https://img.shields.io/badge/Visit-aiworkshopapps.com-4fe08a?style=for-the-badge&labelColor=03060b" alt="Visit aiworkshopapps.com" /></a>
 <a href="https://aiworkshopapps.com/join"><img src="https://img.shields.io/badge/Request%20access-vetted%20members-a3c46c?style=for-the-badge&labelColor=03060b" alt="Request access" /></a>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
-## <img src="assets/icons/broadcast.svg" width="28" align="top" alt=""> 05 // Transmissions
+## <img src="assets/icons/broadcast.svg?v=2" width="28" align="top" alt=""> 05 // Transmissions
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### <img src="assets/icons/play.svg" width="22" align="absmiddle" alt=""> [YouTube · @TECHLEAD187](https://www.youtube.com/@TECHLEAD187)
+### <img src="assets/icons/play.svg?v=2" width="22" align="absmiddle" alt=""> [YouTube · @TECHLEAD187](https://www.youtube.com/@TECHLEAD187)
 
 **Weekly AI news** - how this week's AI stories move access, pricing, geopolitics, markets, and regulation. One 15-minute episode every week, plus Shorts.
 
@@ -263,7 +263,7 @@ Household health, insurance and property-tax AI on a knowledge graph that stays 
 </td>
 <td width="50%" valign="top">
 
-### <img src="assets/icons/xmark.svg" width="22" align="absmiddle" alt=""> [X · @TechLead187](https://x.com/TechLead187)
+### <img src="assets/icons/xmark.svg?v=2" width="22" align="absmiddle" alt=""> [X · @TechLead187](https://x.com/TechLead187)
 
 **Security-first agentic AI, edge to core.** Weekly AI news that moves access, pricing and policy. Real demos, live takes.
 
@@ -278,9 +278,9 @@ Household health, insurance and property-tax AI on a knowledge graph that stays 
 </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
-## <img src="assets/icons/seal.svg" width="28" align="top" alt=""> 06 // Government access
+## <img src="assets/icons/seal.svg?v=2" width="28" align="top" alt=""> 06 // Government access
 
 **TECHLEAD 187 LLC** is registered in SAM.gov and is **SOF RACER consortium member No. 893** (since September 2026) - the Special Operations Forces Rapid Acquisition Consortium for Emerging Requirements, a prototype OT consortium under 10 U.S.C. § 4022.
 
@@ -295,9 +295,9 @@ Household health, insurance and property-tax AI on a knowledge graph that stays 
 
 <sub>Consortium membership and marketplace participation do not imply Government endorsement and do not guarantee an award.</sub>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
-## <img src="assets/icons/longgame.svg" width="28" align="top" alt=""> 07 // Chief Warrant Officer to tech executive
+## <img src="assets/icons/longgame.svg?v=2" width="28" align="top" alt=""> 07 // Chief Warrant Officer to tech executive
 
 ```mermaid
 timeline
@@ -311,14 +311,14 @@ timeline
     2026 : Founded TECHLEAD 187 LLC - shipped LUCID Agent IDE - SOF RACER member
 ```
 
-- <img src="assets/icons/satellite.svg" width="18" align="absmiddle" alt=""> **AI fielded in combat (2006)** - installed and ran the Army Research Laboratory's first AI-powered translation capability: Arabic broadcast TV to English in under a second, networked across a 350+ soldier task force during the Surge.
-- <img src="assets/icons/vision.svg" width="18" align="absmiddle" alt=""> **USSOCOM (2016-21)** - cloud-to-edge for denied environments; with Google, deployed containerized AutoML computer vision on remote edge systems; certified data-science platforms in classified environments.
-- <img src="assets/icons/cloudlock.svg" width="18" align="absmiddle" alt=""> **NT Concepts (2021-26)** - accredited a U.S. Air Force customer's first Google Cloud enclave at IL5; Principal Investigator for AI agents on Gemini and Gemma for Army predictive logistics; technical advisor for NGC2 Project Trinity.
-- <img src="assets/icons/rocket.svg" width="18" align="absmiddle" alt=""> **Still serving** - senior Chief Warrant Officer of the AI Detachment, Army Reserve **75th Innovation Command**, the Army's change agents for emerging technology. Also Senior Consultant, **Infrastellis Advisory Group**.
+- <img src="assets/icons/satellite.svg?v=2" width="18" align="absmiddle" alt=""> **AI fielded in combat (2006)** - installed and ran the Army Research Laboratory's first AI-powered translation capability: Arabic broadcast TV to English in under a second, networked across a 350+ soldier task force during the Surge.
+- <img src="assets/icons/vision.svg?v=2" width="18" align="absmiddle" alt=""> **USSOCOM (2016-21)** - cloud-to-edge for denied environments; with Google, deployed containerized AutoML computer vision on remote edge systems; certified data-science platforms in classified environments.
+- <img src="assets/icons/cloudlock.svg?v=2" width="18" align="absmiddle" alt=""> **NT Concepts (2021-26)** - accredited a U.S. Air Force customer's first Google Cloud enclave at IL5; Principal Investigator for AI agents on Gemini and Gemma for Army predictive logistics; technical advisor for NGC2 Project Trinity.
+- <img src="assets/icons/rocket.svg?v=2" width="18" align="absmiddle" alt=""> **Still serving** - senior Chief Warrant Officer of the AI Detachment, Army Reserve **75th Innovation Command**, the Army's change agents for emerging technology. Also Senior Consultant, **Infrastellis Advisory Group**.
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
-## <img src="assets/icons/credentials.svg" width="28" align="top" alt=""> 08 // Credentials & recognition
+## <img src="assets/icons/credentials.svg?v=2" width="28" align="top" alt=""> 08 // Credentials & recognition
 
 <div align="center">
 
@@ -332,10 +332,10 @@ timeline
 
 </div>
 
-- <img src="assets/icons/medal.svg" width="18" align="absmiddle" alt=""> **AFCEA 40 Under 40** (2019) · **AUSA Sunshine Chapter, 75th Innovation Command Officer of the Year** (2019) · **Army Reserve Most Outstanding Recruiter** (2012)
-- <img src="assets/icons/gradcap.svg" width="18" align="absmiddle" alt=""> BBA, Accounting & Information Systems - University of Toledo *(with honors, earned while serving)*
+- <img src="assets/icons/medal.svg?v=2" width="18" align="absmiddle" alt=""> **AFCEA 40 Under 40** (2019) · **AUSA Sunshine Chapter, 75th Innovation Command Officer of the Year** (2019) · **Army Reserve Most Outstanding Recruiter** (2012)
+- <img src="assets/icons/gradcap.svg?v=2" width="18" align="absmiddle" alt=""> BBA, Accounting & Information Systems - University of Toledo *(with honors, earned while serving)*
 
-### <img src="assets/icons/publications.svg" width="22" align="absmiddle" alt=""> Published
+### <img src="assets/icons/publications.svg?v=2" width="22" align="absmiddle" alt=""> Published
 
 1. [The Future of Military Logistics: AI, Data Models, and Emerging Technologies](https://www.ntconcepts.com/next-talks/military-logistics-future/) - *NT Concepts Next Talks*
 2. [Digital Engineering Tools for Efficient AI Development](https://www.ntconcepts.com/digital-engineering-tools-for-efficient-ai-development/)
@@ -343,16 +343,16 @@ timeline
 4. [Cloud-Agnostic Data Management Solutions](https://www.ntconcepts.com/cloud-agnostic-data-management-solutions/)
 5. [Data Management Design Patterns for Cloud Ecosystems](https://www.ntconcepts.com/data-management-cloud-design-patterns-for-cloud-ecosystems/)
 
-### <img src="assets/icons/community.svg" width="22" align="absmiddle" alt=""> Paid forward
+### <img src="assets/icons/community.svg?v=2" width="22" align="absmiddle" alt=""> Paid forward
 
 - Co-founder, **C.O.V.E.R.T. Consortium** - hosts hands-on AI workshops that build real apps.
 - [Mentor, **MilMentor**](https://app.milmentor.com/mentor/4885-nick-chadwick?refid=BL1CKFZM) - free career mentoring for veterans and military spouses: cloud, AI, and the move from uniform to industry.
 - Computer Science Advisory Board, Hillsborough Community College · student mentor, AMRoC · xTechSearch finalist mentor · AFWERX Fusion small-business mentor.
 - Technology Chair, AFCEA Greater Tampa Bay (2019-21).
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
-## <img src="assets/icons/arsenal.svg" width="28" align="top" alt=""> 09 // Arsenal
+## <img src="assets/icons/arsenal.svg?v=2" width="28" align="top" alt=""> 09 // Arsenal
 
 <div align="center">
 
@@ -391,7 +391,7 @@ timeline
 
 </div>
 
-## <img src="assets/icons/telemetry.svg" width="28" align="top" alt=""> Telemetry
+## <img src="assets/icons/telemetry.svg?v=2" width="28" align="top" alt=""> Telemetry
 
 <div align="center">
 
@@ -399,7 +399,7 @@ timeline
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/divider.svg?v=2" width="100%" alt="" />
 
 <div align="center">
 
@@ -413,7 +413,7 @@ timeline
 
 <br/><br/>
 
-<img src="assets/footer.svg" width="100%" alt="Speed is cheap. Trust is expensive. Do, not talk. TECHLEAD 187 LLC, Tampa, Florida." />
+<img src="assets/footer.svg?v=2" width="100%" alt="Speed is cheap. Trust is expensive. Do, not talk. TECHLEAD 187 LLC, Tampa, Florida." />
 
 <sub>© 2026 Nick Chadwick · TECHLEAD 187 LLC · <i>Do, Not Talk.</i></sub>
 
